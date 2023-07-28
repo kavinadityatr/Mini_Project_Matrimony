@@ -1,0 +1,114 @@
+.Navbar {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+.Navbar div {
+  width: 40%;
+}
+.Navbar {
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.body {
+  width: 30%;
+}
+
+.bodyChild {
+  display: flex;
+  color: azure;
+}
+
+.bodyChild div {
+  width: 50%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.bodyChildForm {
+  border-bottom: 3px solid rgb(255, 152, 137);
+  font-weight: 900;
+  
+}
+
+.div {
+  
+  font-weight: 900;
+}
+
+ button {
+  background-color: rgb(255, 152, 137);
+  border-radius: 1.5rem;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  font-weight: 900;
+  margin-top: 1.5rem;
+  width: 80px;
+
+}
+
+form {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  text-align: center;
+
+
+}
+
+form input {
+  padding: 10px 0;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid rgb(255, 255, 255);
+  padding-left: 1.5rem;
+}
+h4 {
+  text-align: right;
+  color: rgb(255, 152, 137);
+  font-size: 14px;
+  font-weight: 400;
+}
+h6{
+  text-align: right;
+  color: rgb(255, 152, 137);
+  font-size: 14px;
+  font-weight: 400;
+}
+.opac {
+  align-content: center;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: sans-serif;
+  margin-top: 80px;
+  border: 1px;
+  border-radius: 25px;
+  background-color: black;
+  opacity: 0.5;
+  color: azure;
+
+ 
+
+  
+}
+body{
+  background-image: url('https://res.cloudinary.com/dunzdwo0h/image/upload/v1688962103/samantha-gades-odt2t81dZtQ-unsplash_ko7evw.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* font-style:; */
+}
+
+.z{
+    margin-right: 20%;
+}
+
+

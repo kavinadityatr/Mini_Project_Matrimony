@@ -1,0 +1,227 @@
+/* LoginPage.css
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .login-form {
+    background-color: #050505;
+    padding: 40px;
+    opacity: 0.7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    align-items: center;
+    border-radius: 25px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .SignUp h4
+  {
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+    border-radius: 50px;
+    font-size: 14px;
+    margin-left: 10%;
+  }
+  
+  button {
+    width: 65%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 152, 137) ;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-left: 15%;
+
+
+  }
+  
+  button:hover {
+    background-color: #2476a8;
+  }
+  
+ 
+  input:invalid {
+    border-color: #ff4d4d;
+  }
+  
+  input:invalid + span::before {
+    content: "Invalid input";
+    color: #ff4d4d;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 5px #2980b9;
+  }
+
+  .error {
+    color: #ff4d4d;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 4px;
+  }
+   */
+
+   .form{
+    padding: 150px;
+    background-image: url('https://res.cloudinary.com/dunzdwo0h/image/upload/v1688962103/samantha-gades-odt2t81dZtQ-unsplash_ko7evw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+.log{
+  color: white;
+  padding-left: 50px;
+  margin-right: 20%;
+}
+.login-form {
+    /* background-image: url('https://res.cloudinary.com/dunzdwo0h/image/upload/v1688962103/samantha-gades-odt2t81dZtQ-unsplash_ko7evw.jpg'); */
+    border-radius: 25px;
+    max-width: 400px;
+    margin-left:35% ;
+    margin-top: 10px;
+    padding: 50px;
+    opacity:0.9;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form div {
+    margin-bottom: 10px;
+    
+  }
+  
+  .login-form input[type='text'],
+  .login-form input[type='email'],
+  .login-form input[type='password'] {
+    width: 100%;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  .login-form button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: rgb(255, 152, 137);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form button[type='submit']:hover {
+    background-color: rgb(199, 92, 76);
+  }
+ .error-message {
+      color: red;
+      font-size: 14px;
+      margin-top: 10px;
+    }  
+.slink{
+  color: #fff;
+}
+
+.social-login {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+  button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 10rem;
+    margin:200px;
+    padding: .625rem;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    cursor: pointer;
+    transition:  .3s ease-in;
+    
+    &:hover {
+      background-color: rgba(#fff, .3);
+    }
+    
+    i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      width: 2.25rem;
+      height: 2.25rem;
+      background-color: #fff;
+      border-radius: 50%;
+      font-size: 1.4rem;
+      text-align: center;
+      margin-right: .25rem;
+      
+      &.fa-facebook-f {
+        color: #000000;
+      }
+      
+       
+      
+      &.fa-google {
+        color: #000000;
+      }
+    }
+  }
+}
+
+.separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+   span {
+     display:block;
+     width: 100%;
+     height: 1px;
+     background: #ddd;
+     margin: 1.5rem;
+    }
+}

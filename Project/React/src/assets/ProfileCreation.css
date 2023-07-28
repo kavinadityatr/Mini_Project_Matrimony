@@ -1,0 +1,94 @@
+/* ProfileCreation.css */
+
+/* Container */
+/* .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 25%;
+  } */
+  
+
+  .profilecr
+  {
+    align-content: center;
+  }
+
+  .profilelabel select{
+    margin-left: 0;
+    width: 25%;
+    border-radius: 10%;
+  }
+  /* Heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f9f9f9;
+  }
+  
+  /* Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 43%;
+
+  }
+  
+  /* Form Label */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Form Input Fields */
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    width: 25%;
+    background-color: white;
+  }
+  input #photo{
+    background-color: #f9f9f9;
+  }
+  
+  /* Submit Button */
+  button {
+    padding: 10px 20px;
+    background-color:rgb(255, 152, 137);
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 16px;
+    width: 25%;
+
+  }
+  
+  /* Submit Button Hover Effect */
+  button:hover {
+    background-color: rgb(250, 102, 80);
+  }
+
+
+  .photo-upload {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 0%; */
+    /* background-color: azure; */
+  }
+  
+  .selected-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+
+
+  

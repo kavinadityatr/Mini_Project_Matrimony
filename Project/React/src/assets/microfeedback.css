@@ -1,0 +1,53 @@
+h3 
+{
+    width: 30%;
+    color:azure;
+    color: black;
+    margin-left:50%
+}
+
+.card-title h5 
+{
+    width: 30%;
+    color:azure;
+    font-size: large;
+    margin-left:50%
+}
+
+.form-controlmb-4 textarea
+{
+    margin-left: 40%;
+    width: 60%;
+}
+
+.FeedbackDisplay p{
+    margin-left:50%;
+    color: black;
+}
+
+.card-body
+{
+    /* background-color: aliceblue; */
+    width: 50%;
+    margin-left: 20%;
+}
+
+button{
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.mt-4{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.card-title
+{
+    padding-top: 50px;
+}
+.fbtn
+{
+    width: 70%;
+    border-radius: 20px;
+}

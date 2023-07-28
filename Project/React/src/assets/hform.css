@@ -1,0 +1,43 @@
+form{
+    display: inline-block;
+}
+
+.hform {
+    
+    margin-left: 25%;
+    margin-bottom: 10%;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.hform input{
+    width: 100%;
+}
+
+.hform button{
+    margin-left: 42%;
+    width: 70%;
+    border-radius: 50px;
+    background-color: rgb(255, 152, 137);
+}
+
+
+select, option {
+    width: 440px;
+    padding: 5px;
+border-radius: 15px;
+text-align: center;
+color:rgb(255, 152, 137);
+margin-left: none;
+}
+
+#loc input{
+    width: 25%;
+
+}
+
+
+
+
+
+
